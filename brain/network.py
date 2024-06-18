@@ -49,7 +49,7 @@ class Network:
     def train(self, data, targets, epochs=10000):
         for _ in range(epochs):
             clear()
-            print(f"{int(self.count/epochs) * 100}% : {self.count}/{epochs}")
+            print(f"{int((self.count/epochs) * 100)}% : {self.count}/{epochs}")
             self.count += 1
             for inp, target in zip(data, targets):
                 self.feed_forward(inp)
