@@ -2,7 +2,12 @@ import numpy as np
 from .neuron import Neuron
 from .utils import Config
 import os
-clear = lambda: os.system('clear')
+name = os.name
+def clear():
+    if name == "nt":
+        os.system("cls")
+    else:
+        os.system('clear')
 
 class Network:
     def __init__(self, size, learning_rate=0.01):
