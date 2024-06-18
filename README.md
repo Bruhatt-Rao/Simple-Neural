@@ -28,7 +28,13 @@ To train and test the neural network, run:
 ```sh
 python main.py
 ```
-
+This should output: 
+```yaml
+Input: [0 0], Output: [0.4984385781118704]
+Input: [0 1], Output: [0.5084337861718952]
+Input: [1 0], Output: [0.4888554952924806]
+Input: [1 1], Output: [0.4988496643606066]
+```
 
 ## License
 
