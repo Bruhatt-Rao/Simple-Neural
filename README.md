@@ -13,8 +13,8 @@ This project implements a simple neural network to solve the XOR problem using P
 Clone the repository:
 
 ```sh
-git clone https://github.com/your-username/xor-neural-network.git
-cd xor-neural-network
+git clone [https://github.com/your-username/xor-neural-network.git](https://github.com/Bhim-Rao/Simple-Neural.git)
+cd simple-neural
 ```
 Install the required packages:
 ```sh
