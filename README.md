@@ -1,7 +1,7 @@
 
-# XOR Neural Network
+# Simple Neural Network
 
-This project implements a simple neural network to solve the XOR problem using Python and NumPy. The network consists of an input layer, a hidden layer, and an output layer. The neural network is trained using backpropagation.
+This library implements a simple neural network using Python and NumPy. The network consists of an input layer, a hidden layer, and an output layer. The neural network is trained using backpropagation.
 
 ## Prerequisites
 
@@ -23,7 +23,7 @@ pip install numpy
 
 ## Usage
 
-To train and test the neural network, run:
+To run an example that trains the XOR problem run these commands:
 
 ```sh
 python main.py
