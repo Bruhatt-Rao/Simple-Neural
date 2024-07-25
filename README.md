@@ -21,20 +21,41 @@ Install the required packages:
 pip install numpy
 ```
 
-## Usage
+## Quickstart
 
 To run an example that trains the XOR problem run these commands:
 
 ```sh
 python main.py
 ```
-This should output: 
+This example should output: 
 ```yaml
 Input: [0 0], Output: [0.4984385781118704]
 Input: [0 1], Output: [0.5084337861718952]
 Input: [1 0], Output: [0.4888554952924806]
 Input: [1 1], Output: [0.4988496643606066]
 ```
+## Usage
+
+```py
+from brain import network
+import numpy as np
+
+n = network.Network([2, 3, 1], learning_rate=0.1)
+
+n.gen()
+
+data = np.array([[0, 0], [0, 1], [1, 0], [1, 1]])
+target = np.array([[0], [1], [1], [0]])
+
+n.train(data, target, epochs=10000)
+
+for d in data:
+    out = n.feed_forward(d)
+    print(f"Input: {d}, Output: {out}")
+```
+
+This is the example usage for the library
 
 ## License
 
