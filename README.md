@@ -59,4 +59,4 @@ This is the example usage for the library
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file.
+This project is licensed under the MIT License - see the LICENSE file for more details.
