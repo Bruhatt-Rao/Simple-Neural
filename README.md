@@ -16,7 +16,10 @@ Clone the repository:
 git clone https://github.com/Bhim-Rao/Simple-Neural.git
 cd simple-neural
 ```
+
+
 Install the required packages:
+
 ```sh
 pip install numpy
 ```
