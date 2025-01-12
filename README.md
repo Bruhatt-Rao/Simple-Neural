@@ -1,7 +1,7 @@
 
 # Simple Neural Network
 
-This library implements a simple neural network using Python and NumPy. The network consists of an input layer, a hidden layer, and an output layer. The neural network is trained using backpropagation.
+This library implements a simple neural network using Python and NumPy that can be easily modified for different use cases. The network consists of an input layer, a hidden layer, and an output layer. The neural network is trained using backpropagation.
 
 ## Prerequisites
 
